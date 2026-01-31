@@ -36,7 +36,7 @@ public class TestController {
     @GetMapping("/hello")
     public String test() {
 
-        return "Hello! welcome to spring security configuration session. GitHub123";
+        return "Hello! welcome to spring security configuration session. GitHub123345";
     }
 
     @GetMapping("/public/free")
