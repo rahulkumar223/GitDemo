@@ -1,0 +1,83 @@
+2025-03-22T16:49:09.288+05:30  INFO 14248 --- [logsDemo] [main] com.logsdemo.LogsDemoApplication         : Starting LogsDemoApplication using Java 21.0.5 with PID 14248 (D:\Sprin Com\projects\logsDemo\logsDemo\target\classes started by Sidarth in D:\Sprin Com\projects\logsDemo\logsDemo)
+2025-03-22T16:49:09.293+05:30  INFO 14248 --- [logsDemo] [main] com.logsdemo.LogsDemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-03-22T16:49:11.168+05:30  INFO 14248 --- [logsDemo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-22T16:49:11.198+05:30  INFO 14248 --- [logsDemo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-22T16:49:11.205+05:30  INFO 14248 --- [logsDemo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-22T16:49:11.297+05:30  INFO 14248 --- [logsDemo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-22T16:49:11.297+05:30  INFO 14248 --- [logsDemo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1896 ms
+2025-03-22T16:49:12.042+05:30  INFO 14248 --- [logsDemo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-22T16:49:12.056+05:30  INFO 14248 --- [logsDemo] [main] com.logsdemo.LogsDemoApplication         : Started LogsDemoApplication in 3.864 seconds (process running for 4.557)
+2025-03-22T16:49:55.910+05:30  INFO 14248 --- [logsDemo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-22T16:49:55.910+05:30  INFO 14248 --- [logsDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-22T16:49:55.912+05:30  INFO 14248 --- [logsDemo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-22T16:49:55.981+05:30 ERROR 14248 --- [logsDemo] [http-nio-8080-exec-1] com.logsdemo.controller.TestController   : This is an error log
+2025-03-22T16:49:55.982+05:30  INFO 14248 --- [logsDemo] [http-nio-8080-exec-1] com.logsdemo.service.TestService         : This is an info log
+2025-03-22T16:49:55.982+05:30  WARN 14248 --- [logsDemo] [http-nio-8080-exec-1] com.logsdemo.service.TestService         : This is an warning log
+2025-03-22T16:49:55.983+05:30 ERROR 14248 --- [logsDemo] [http-nio-8080-exec-1] com.logsdemo.service.TestService         : This is an error log
+2025-03-22T16:52:19.981+05:30  INFO 14248 --- [logsDemo] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-22T16:52:20.000+05:30  INFO 14248 --- [logsDemo] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-22 16:52:23 [main] INFO  com.logsdemo.LogsDemoApplication -Starting LogsDemoApplication using Java 21.0.5 with PID 18552 (D:\Sprin Com\projects\logsDemo\logsDemo\target\classes started by Sidarth in D:\Sprin Com\projects\logsDemo\logsDemo)
+2025-03-22 16:52:23 [main] INFO  com.logsdemo.LogsDemoApplication -No active profile set, falling back to 1 default profile: "default"
+2025-03-22 16:52:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port 8080 (http)
+2025-03-22 16:52:25 [main] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2025-03-22 16:52:25 [main] INFO  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-22 16:52:26 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2025-03-22 16:52:26 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1980 ms
+2025-03-22 16:52:26 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port 8080 (http) with context path '/'
+2025-03-22 16:52:26 [main] INFO  com.logsdemo.LogsDemoApplication -Started LogsDemoApplication in 3.884 seconds (process running for 4.702)
+2025-03-22 16:54:10 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown -Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-22 16:54:10 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown -Graceful shutdown complete
+2025-03-22 16:54:13  com.logsdemo.LogsDemoApplication -Starting LogsDemoApplication using Java 21.0.5 with PID 11432 (D:\Sprin Com\projects\logsDemo\logsDemo\target\classes started by Sidarth in D:\Sprin Com\projects\logsDemo\logsDemo)
+2025-03-22 16:54:13  com.logsdemo.LogsDemoApplication -No active profile set, falling back to 1 default profile: "default"
+2025-03-22 16:54:15  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat initialized with port 8080 (http)
+2025-03-22 16:54:15  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2025-03-22 16:54:15  o.a.catalina.core.StandardEngine -Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-22 16:54:15  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2025-03-22 16:54:15  o.s.b.w.s.c.ServletWebServerApplicationContext -Root WebApplicationContext: initialization completed in 1800 ms
+2025-03-22 16:54:16  o.s.b.w.e.tomcat.TomcatWebServer -Tomcat started on port 8080 (http) with context path '/'
+2025-03-22 16:54:16  com.logsdemo.LogsDemoApplication -Started LogsDemoApplication in 3.642 seconds (process running for 4.348)
+2025-03-22 16:54:25  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-22 16:54:25  o.s.web.servlet.DispatcherServlet -Initializing Servlet 'dispatcherServlet'
+2025-03-22 16:54:25  o.s.web.servlet.DispatcherServlet -Completed initialization in 1 ms
+2025-03-22 16:54:25  c.logsdemo.controller.TestController -This is an error log
+2025-03-22 16:54:25  com.logsdemo.service.TestService -This is an info log
+2025-03-22 16:54:25  com.logsdemo.service.TestService -This is an warning log
+2025-03-22 16:54:25  com.logsdemo.service.TestService -This is an error log
+2025-03-22 16:55:02  o.s.b.w.e.tomcat.GracefulShutdown -Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-22 16:55:02  o.s.b.w.e.tomcat.GracefulShutdown -Graceful shutdown complete
+2025-03-22 16:55:06  INFO   -Starting LogsDemoApplication using Java 21.0.5 with PID 17728 (D:\Sprin Com\projects\logsDemo\logsDemo\target\classes started by Sidarth in D:\Sprin Com\projects\logsDemo\logsDemo)
+2025-03-22 16:55:06  INFO   -No active profile set, falling back to 1 default profile: "default"
+2025-03-22 16:55:08  INFO   -Tomcat initialized with port 8080 (http)
+2025-03-22 16:55:08  INFO   -Starting service [Tomcat]
+2025-03-22 16:55:08  INFO   -Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-22 16:55:08  INFO   -Initializing Spring embedded WebApplicationContext
+2025-03-22 16:55:08  INFO   -Root WebApplicationContext: initialization completed in 1888 ms
+2025-03-22 16:55:09  INFO   -Tomcat started on port 8080 (http) with context path '/'
+2025-03-22 16:55:09  INFO   -Started LogsDemoApplication in 3.873 seconds (process running for 4.552)
+2025-03-22 16:55:17  INFO   -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-22 16:55:17  INFO   -Initializing Servlet 'dispatcherServlet'
+2025-03-22 16:55:17  INFO   -Completed initialization in 1 ms
+2025-03-22 16:55:17  ERROR  -This is an error log
+2025-03-22 16:55:17  INFO   -This is an info log
+2025-03-22 16:55:17  WARN   -This is an warning log
+2025-03-22 16:55:17  ERROR  -This is an error log
+2025-03-22 16:55:44  INFO   -Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-22 16:55:44  INFO   -Graceful shutdown complete
+INFO   -Starting LogsDemoApplication using Java 21.0.5 with PID 18376 (D:\Sprin Com\projects\logsDemo\logsDemo\target\classes started by Sidarth in D:\Sprin Com\projects\logsDemo\logsDemo)
+INFO   -No active profile set, falling back to 1 default profile: "default"
+INFO   -Tomcat initialized with port 8080 (http)
+INFO   -Starting service [Tomcat]
+INFO   -Starting Servlet engine: [Apache Tomcat/10.1.39]
+INFO   -Initializing Spring embedded WebApplicationContext
+INFO   -Root WebApplicationContext: initialization completed in 1764 ms
+INFO   -Tomcat started on port 8080 (http) with context path '/'
+INFO   -Started LogsDemoApplication in 3.674 seconds (process running for 4.378)
+INFO   -Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO   -Initializing Servlet 'dispatcherServlet'
+INFO   -Completed initialization in 2 ms
+ERROR  -This is an error log
+INFO   -This is an info log
+WARN   -This is an warning log
+ERROR  -This is an error log
+INFO   -Commencing graceful shutdown. Waiting for active requests to complete
+INFO   -Graceful shutdown complete
